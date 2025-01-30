@@ -5,5 +5,25 @@
 }
 
 .contenitore {
-    
+    width: 80%;
+    margin: 40px auto;
+}
+
+.box-contenitore {
+    border: 2px solid black;
+    background-color: lightblue;
+    height: 400px;
+    display: flex;
+    /*definisce quale sarà l'asse principale*/
+    flex direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.quadrato {
+    background-color: white;
+    border-color: 2px solid rgb(255, 181, 8);
+    width: 100px;
+    height: 100px;
 }
